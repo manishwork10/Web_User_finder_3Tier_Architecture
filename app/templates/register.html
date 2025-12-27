@@ -1,0 +1,14 @@
+<!doctype html>
+<title>Register</title>
+<h2>Add new user</h2>
+<form action="{{ url_for('users') }}" method="post">
+    <label>Username:</label><br>
+    <input type="text" name="username" required><br><br>
+
+    <label>Phone number:</label><br>
+    <input type="text" name="phonenumber" required><br><br>
+
+    <button type="submit">Save</button>
+</form>
+<br>
+<a href="{{ url_for('home') }}">← back to home</a>

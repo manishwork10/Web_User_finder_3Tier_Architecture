@@ -1,0 +1,6 @@
+flask
+fastapi
+uvicorn[standard]
+sqlalchemy
+requests
+pydantic
